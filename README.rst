@@ -5,6 +5,10 @@ About
 This is a small tool that tests if you have NICs (Network Interface Cards)
 that are supported by http://dpdk.org/ framework.
 
+It works only on python 3::
+
+    $ pip3 install dpdktest
+
 How It Works?
 =============
 
