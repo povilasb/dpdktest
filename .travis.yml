@@ -8,3 +8,6 @@ python:
 script:
   - make lint
   - make test
+
+after_success:
+  - pyenv/bin/coveralls
