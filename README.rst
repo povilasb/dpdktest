@@ -4,6 +4,8 @@ About
 
 .. image:: https://travis-ci.org/povilasb/dpdktest.svg?branch=master
     :target: https://travis-ci.org/povilasb/dpdktest
+.. image:: https://coveralls.io/repos/github/povilasb/dpdktest/badge.svg?branch=master
+    :target: https://coveralls.io/github/povilasb/dpdktest?branch=master
 
 This is a small tool that tests if you have NICs (Network Interface Cards)
 that are supported by http://dpdk.org/ framework.
