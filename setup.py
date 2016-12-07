@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 def requirements() -> list:
-    with open('requirements.txt') as f:
+    with open('requirements/prod.txt') as f:
         return [l.strip() for l in f.readlines()]
 
 

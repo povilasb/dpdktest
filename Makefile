@@ -5,7 +5,7 @@ virtualenv_dir := pyenv
 pip := $(virtualenv_dir)/bin/pip
 pytest := $(virtualenv_dir)/bin/py.test
 linter := $(virtualenv_dir)/bin/flake8
-py_requirements ?= requirements.txt requirements_dev.txt
+py_requirements ?= requirements/prod.txt requirements/dev.txt
 coverage := $(virtualenv_dir)/bin/coverage
 
 
