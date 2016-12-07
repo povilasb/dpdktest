@@ -14,6 +14,20 @@ It works only on python 3::
 
     $ pip3 install dpdktest
 
+If you're lucky, you'll see something like this::
+
+    $ dpdktest
+    NICs supported by DPDK: ['eth0', 'eth1']
+    $ echo $?
+    0
+
+Otherwise::
+
+    $ dpdktest
+    You don't have NICs supported by DPDK
+    $ echo $?
+    255
+
 How It Works?
 =============
 
