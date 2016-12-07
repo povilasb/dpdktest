@@ -2,13 +2,16 @@ from setuptools import setup
 
 
 def requirements() -> list:
-    with open('requirements/prod.txt') as f:
-        return [l.strip() for l in f.readlines()]
+    return [
+        'PyFunctional==0.8.0',
+        'netifaces==0.10.5',
+        'typing==3.5.2.2',
+    ]
 
 
 setup(
     name='dpdktest',
-    version='0.1.0',
+    version='0.1.1',
     description='Tool to test if your NIC is supported by DPDK framework.',
     long_description=open('README.rst').read(),
     url='https://github.com/povilasb/dpdktest',
